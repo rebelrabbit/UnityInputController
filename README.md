@@ -1,4 +1,4 @@
-# UnityInputController
+# UnityInputManager
 Event-delegate based Input Manager for Unity (C#)
 
 These scripts allow you to have a single InputManager class throughout your project. The main script, InputManager.cs, will handle every input and call all the methods that are suscribed to the input events. 
