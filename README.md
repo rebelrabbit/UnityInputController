@@ -2,7 +2,7 @@
 Event-delegate based Input Manager for Unity (C#)
 
 These scripts allow you to have a single InputManager class throughout your project. The main script, InputManager.cs, will handle every input and call all the methods that are suscribed to the input events. 
-<b>All you will have to do is create a method in some Monobehaviour script and register a new event to be listened by the Input Manager, so your method will be called whenever this input event is detected.</b>
+<b>All you have to do is create a method in some Monobehaviour script and register a new event to be listened by the InputManager, so your method will be called whenever this input event is detected.</b>
 
 The main purpose of these scripts is to remove coupling. Your InputManager shouldn't depend on other scripts' references. All your InputManager should do is detect any user input and shout: HEY! THERE WAS A CLICK! SOMEONE RELEASED THE 'A' KEY! <b>Any methods suscribed to those events will be automatically called</b>. 
 
